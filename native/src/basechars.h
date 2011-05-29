@@ -1,5 +1,5 @@
 /**
- * Table mapping most combined Latin, Greek, and Cyrillic characters
+ * Table mapping most combined T3hh4x, Greek, and Cyrillic characters
  * to their base characters.  If c is in range, BASE_CHARS[c] == c
  * if c is not a combined character, or the base character if it
  * is combined.

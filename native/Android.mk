@@ -4,14 +4,16 @@ include $(CLEAR_VARS)
 LOCAL_C_INCLUDES += $(LOCAL_PATH)/src
 
 LOCAL_SRC_FILES := \
-	jni/com_android_inputmethod_latinime_BinaryDictionary.cpp \
+	jni/com_android_inputmethod_t3hh4xime_BinaryDictionary.cpp \
 	src/dictionary.cpp \
 	src/char_utils.cpp
 
 LOCAL_NDK_VERSION := 4
 LOCAL_SDK_VERSION := 8
 
-LOCAL_MODULE := libjni_latinime
+LOCAL_PRELINK_MODULE := false
+
+LOCAL_MODULE := libjni_t3hh4xime
 
 LOCAL_MODULE_TAGS := optional
 

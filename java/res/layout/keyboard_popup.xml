@@ -26,16 +26,16 @@
         android:paddingLeft="16dip"
         android:paddingRight="16dip"
         >
-    <com.t3hh4xx0r.inputmethod.t3hh4xime.LatinKeyboardBaseView
-            xmlns:latin="http://schemas.android.com/apk/res/com.t3hh4xx0r.inputmethod.t3hh4xime"
-            android:id="@+id/LatinKeyboardBaseView"
+    <com.t3hh4xx0r.inputmethod.t3hh4xime.T3hh4xKeyboardBaseView
+            xmlns:t3hh4x="http://schemas.android.com/apk/res/com.t3hh4xx0r.inputmethod.t3hh4xime"
+            android:id="@+id/T3hh4xKeyboardBaseView"
             android:layout_alignParentBottom="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/latinkeyboard_transparent"
+            android:background="@color/t3hh4xkeyboard_transparent"
 
-            latin:keyBackground="@drawable/btn_keyboard_key_gingerbread_popup"
-            latin:keyHysteresisDistance="0dip"
-            latin:verticalCorrection="@dimen/mini_keyboard_vertical_correction"
+            t3hh4x:keyBackground="@drawable/btn_keyboard_key_gingerbread_popup"
+            t3hh4x:keyHysteresisDistance="0dip"
+            t3hh4x:verticalCorrection="@dimen/mini_keyboard_vertical_correction"
             />
 </LinearLayout>

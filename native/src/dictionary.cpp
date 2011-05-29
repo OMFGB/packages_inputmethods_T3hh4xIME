@@ -32,7 +32,7 @@
 #define DICTIONARY_HEADER_SIZE 2
 #define NOT_VALID_WORD -99
 
-namespace latinime {
+namespace t3hh4xime {
 
 Dictionary::Dictionary(void *dict, int typedLetterMultiplier, int fullWordMultiplier)
 {
@@ -255,7 +255,7 @@ Dictionary::toLowerCase(unsigned short c) {
     if (c >='A' && c <= 'Z') {
         c |= 32;
     } else if (c > 127) {
-        c = latin_tolower(c);
+        c = t3hh4x_tolower(c);
     }
     return c;
 }
@@ -593,4 +593,4 @@ Dictionary::isValidWordRec(int pos, unsigned short *word, int offset, int length
 }
 
 
-} // namespace latinime
+} // namespace t3hh4xime

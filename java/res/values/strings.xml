@@ -18,11 +18,11 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Title for Latin keyboard  -->
+    <!-- Title for T3hh4x keyboard  -->
     <string name="english_ime_name">T3hh44x0r keyboard</string>
-    <!-- Title for Latin keyboard settings activity / dialog -->
+    <!-- Title for T3hh4x keyboard settings activity / dialog -->
     <string name="english_ime_settings">T3hh4xx0r keyboard settings</string>
-    <!-- Title for Latin keyboard input options dialog -->
+    <!-- Title for T3hh4x keyboard input options dialog -->
     <string name="english_ime_input_options">Input options</string>
 
     <!-- Option to provide vibrate/haptic feedback on keypress -->
@@ -373,7 +373,7 @@
     <string name="subtype_mode_keyboard">keyboard</string>
     <string name="subtype_mode_voice">voice</string>
 
-    <!-- Title for Latin keyboard debug settings activity / dialog -->
+    <!-- Title for T3hh4x keyboard debug settings activity / dialog -->
     <string name="english_ime_debug_settings" translatable="false">Android keyboard Debug settings</string>
     <string name="prefs_debug_mode" translatable="false">Debug Mode</string>
 </resources>

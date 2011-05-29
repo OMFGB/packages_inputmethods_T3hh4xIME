@@ -28,6 +28,6 @@
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
         android:targetPackage="com.t3hh4xx0r.inputmethod.t3hh4xime"
-        android:label="LatinIME tests">
+        android:label="T3hh4xIME tests">
     </instrumentation>
 </manifest>

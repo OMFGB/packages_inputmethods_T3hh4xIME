@@ -8,10 +8,10 @@
     <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <application android:label="@string/english_ime_name"
-            android:backupAgent="LatinIMEBackupAgent"
+            android:backupAgent="T3hh4xIMEBackupAgent"
             android:killAfterRestore="false">
 
-        <service android:name="LatinIME"
+        <service android:name="T3hh4xIME"
                 android:label="@string/english_ime_name"
                 android:permission="android.permission.BIND_INPUT_METHOD">
             <intent-filter>
@@ -20,13 +20,13 @@
             <meta-data android:name="android.view.im" android:resource="@xml/method" />
         </service>
 
-        <activity android:name="LatinIMESettings" android:label="@string/english_ime_settings">
+        <activity android:name="T3hh4xIMESettings" android:label="@string/english_ime_settings">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
             </intent-filter>
         </activity>
 
-        <activity android:name="LatinIMEDebugSettings" android:label="@string/english_ime_debug_settings">
+        <activity android:name="T3hh4xIMEDebugSettings" android:label="@string/english_ime_debug_settings">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
             </intent-filter>

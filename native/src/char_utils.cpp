@@ -16,9 +16,9 @@
 
 #include <stdlib.h>
 
-namespace latinime {
+namespace t3hh4xime {
 
-struct LatinCapitalSmallPair {
+struct T3hh4xCapitalSmallPair {
   unsigned short capital;
   unsigned short small;
 };
@@ -45,7 +45,7 @@ struct LatinCapitalSmallPair {
 //            isBase = 1;
 //        } else if (cc > 0x7F) {
 //            ccc = u_tolower(cc);
-//            ccc2 = latin_tolower(cc);
+//            ccc2 = t3hh4x_tolower(cc);
 //        } else {
 //            ccc = cc;
 //            ccc2 = ccc;
@@ -57,9 +57,9 @@ struct LatinCapitalSmallPair {
 //        }
 //    }
 //
-//    Initially, started with an empty latin_tolower() as below.
+//    Initially, started with an empty t3hh4x_tolower() as below.
 //
-//    unsigned short latin_tolower(unsigned short c) {
+//    unsigned short t3hh4x_tolower(unsigned short c) {
 //        return c;
 //    }
 //
@@ -78,10 +78,10 @@ struct LatinCapitalSmallPair {
 //    }
 //
 //
-// 3. Update the latin_tolower() function above with SORTED_CHAR_MAP.  Enable
+// 3. Update the t3hh4x_tolower() function above with SORTED_CHAR_MAP.  Enable
 //    the assert(ccc == ccc2) above and confirm the function exits successfully.
 //
-static const struct LatinCapitalSmallPair SORTED_CHAR_MAP[] = {
+static const struct T3hh4xCapitalSmallPair SORTED_CHAR_MAP[] = {
     { 0x00C4, 0x00E4 },  // LATIN CAPITAL LETTER A WITH DIAERESIS
     { 0x00C5, 0x00E5 },  // LATIN CAPITAL LETTER A WITH RING ABOVE
     { 0x00C6, 0x00E6 },  // LATIN CAPITAL LETTER AE
@@ -884,16 +884,16 @@ static const struct LatinCapitalSmallPair SORTED_CHAR_MAP[] = {
 
 static int compare_pair_capital(const void *a, const void *b) {
     return (int)(*(unsigned short *)a)
-            - (int)((struct LatinCapitalSmallPair*)b)->capital;
+            - (int)((struct T3hh4xCapitalSmallPair*)b)->capital;
 }
 
-unsigned short latin_tolower(unsigned short c) {
-    struct LatinCapitalSmallPair *p =
-            (struct LatinCapitalSmallPair *)bsearch(&c, SORTED_CHAR_MAP,
+unsigned short t3hh4x_tolower(unsigned short c) {
+    struct T3hh4xCapitalSmallPair *p =
+            (struct T3hh4xCapitalSmallPair *)bsearch(&c, SORTED_CHAR_MAP,
                     sizeof(SORTED_CHAR_MAP) / sizeof(SORTED_CHAR_MAP[0]),
                     sizeof(SORTED_CHAR_MAP[0]),
                     compare_pair_capital);
     return p ? p->small : c;
 }
 
-} // namespace latinime
+} // namespace t3hh4xime

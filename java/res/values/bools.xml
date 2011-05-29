@@ -21,7 +21,7 @@
     <!-- Whether or not auto-correction should be enabled by default -->
     <bool name="enable_autocorrect">true</bool>
     <!-- Whether this input method should be used as the default for a locale. Override it
-         for latin languages. -->
+         for t3hh4x languages. -->
     <bool name="im_is_default">false</bool>
     <!-- Whether or not voice input is enabled by default. -->
     <bool name="voice_input_default">true</bool>

@@ -1,5 +1,5 @@
 <!-- This is a sample wordlist that can be converted to a binary dictionary
-     for use by the Latin IME.
+     for use by the T3hh4x IME.
      The format of the word list is a flat list of word entries.
      Each entry has a frequency between 255 and 0.
      Highest frequency words get more weight in the prediction algorithm.
