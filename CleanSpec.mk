@@ -44,10 +44,10 @@
 #$(call add-clean-step, find $(OUT_DIR) -type f -name "IGTalkSession*" -print0 | xargs -0 rm -f)
 #$(call add-clean-step, rm -rf $(PRODUCT_OUT)/data/*)
 
-$(call add-clean-step, rm -rf $(OUT_DIR)/target/common/obj/APPS/LatinIME*)
-$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/LatinIME.apk)
+$(call add-clean-step, rm -rf $(OUT_DIR)/target/common/obj/APPS/T3hh4xIME*)
+$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/T3hh4xIME.apk)
 
-$(call add-clean-step, rm -rf $(PRODUCT_OUT)/obj/SHARED_LIBRARIES/libjni_latinime_intermediates)
+$(call add-clean-step, rm -rf $(PRODUCT_OUT)/obj/SHARED_LIBRARIES/libjni_t3hh4xime_intermediates)
 # ************************************************
 # NEWER CLEAN STEPS MUST BE AT THE END OF THE LIST
 # ************************************************

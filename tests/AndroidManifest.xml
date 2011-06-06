@@ -15,7 +15,7 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.inputmethod.latin.tests">
+    package="com.t3hh4xx0r.inputmethod.t3hh4xime.tests">
 
     <uses-permission android:name="android.permission.READ_CONTACTS" />
 
@@ -27,7 +27,7 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-        android:targetPackage="com.android.inputmethod.latin"
+        android:targetPackage="com.t3hh4xx0r.inputmethod.t3hh4xime"
         android:label="LatinIME tests">
     </instrumentation>
 </manifest>

@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.android.inputmethod.latin;
+package com.t3hh4xx0r.inputmethod.t3hh4xime;
 
 /**
  * Abstract base class for a dictionary that can do a fuzzy search for words based on a set of key

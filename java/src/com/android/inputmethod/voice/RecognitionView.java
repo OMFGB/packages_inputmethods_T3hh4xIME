@@ -43,7 +43,7 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.android.inputmethod.latin.R;
+import com.t3hh4xx0r.inputmethod.t3hh4xime.R;
 
 /**
  * The user interface for the "Speak now" and "working" states.

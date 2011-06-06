@@ -14,14 +14,14 @@
  * the License.
  */
 
-package com.android.inputmethod.latin;
+package com.t3hh4xx0r.inputmethod.t3hh4xime;
 
 import android.content.Context;
 import android.text.TextUtils;
 import android.util.Log;
-import com.android.inputmethod.latin.Suggest;
-import com.android.inputmethod.latin.UserBigramDictionary;
-import com.android.inputmethod.latin.WordComposer;
+import com.t3hh4xx0r.inputmethod.t3hh4xime.Suggest;
+import com.t3hh4xx0r.inputmethod.t3hh4xime.UserBigramDictionary;
+import com.t3hh4xx0r.inputmethod.t3hh4xime.WordComposer;
 
 import java.io.IOException;
 import java.io.InputStream;

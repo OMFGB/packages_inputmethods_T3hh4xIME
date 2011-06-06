@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin;
+package com.t3hh4xx0r.inputmethod.t3hh4xime;
 
 import android.content.ContentResolver;
 import android.content.ContentValues;

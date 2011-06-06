@@ -1,8 +1,8 @@
--keep class com.android.inputmethod.latin.BinaryDictionary {
+-keep class com.t3hh4xx0r.inputmethod.t3hh4xime.BinaryDictionary {
   int mDictLength;
   <init>(...); 
 }
 
--keep class com.android.inputmethod.latin.Suggest {
+-keep class com.t3hh4xx0r.inputmethod.t3hh4xime.Suggest {
   <init>(...);
 }

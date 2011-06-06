@@ -16,8 +16,8 @@
 
 package com.android.inputmethod.voice;
 
-import com.android.inputmethod.latin.EditingUtil;
-import com.android.inputmethod.latin.R;
+import com.t3hh4xx0r.inputmethod.t3hh4xime.EditingUtil;
+import com.t3hh4xx0r.inputmethod.t3hh4xime.R;
 
 import android.content.ContentResolver;
 import android.content.Context;

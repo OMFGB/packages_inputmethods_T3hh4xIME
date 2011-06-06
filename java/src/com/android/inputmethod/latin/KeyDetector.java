@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.android.inputmethod.latin;
+package com.t3hh4xx0r.inputmethod.t3hh4xime;
 
 import android.inputmethodservice.Keyboard;
 import android.inputmethodservice.Keyboard.Key;
@@ -80,7 +80,7 @@ abstract class KeyDetector {
      *
      * @return Allocates and returns an array that can hold all key indices returned by
      *         {@link #getKeyIndexAndNearbyCodes} method. All elements in the returned array are
-     *         initialized by {@link com.android.inputmethod.latin.LatinKeyboardView.NOT_A_KEY}
+     *         initialized by {@link com.t3hh4xx0r.inputmethod.t3hh4xime.LatinKeyboardView.NOT_A_KEY}
      *         value.
      */
     public int[] newCodeArray() {

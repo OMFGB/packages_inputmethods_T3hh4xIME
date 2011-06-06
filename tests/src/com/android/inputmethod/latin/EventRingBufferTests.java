@@ -14,9 +14,9 @@
  * the License.
  */
 
-package com.android.inputmethod.latin;
+package com.t3hh4xx0r.inputmethod.t3hh4xime;
 
-import com.android.inputmethod.latin.SwipeTracker.EventRingBuffer;
+import com.t3hh4xx0r.inputmethod.t3hh4xime.SwipeTracker.EventRingBuffer;
 
 import android.test.AndroidTestCase;
 

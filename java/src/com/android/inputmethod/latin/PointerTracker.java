@@ -14,10 +14,10 @@
  * the License.
  */
 
-package com.android.inputmethod.latin;
+package com.t3hh4xx0r.inputmethod.t3hh4xime;
 
-import com.android.inputmethod.latin.LatinKeyboardBaseView.OnKeyboardActionListener;
-import com.android.inputmethod.latin.LatinKeyboardBaseView.UIHandler;
+import com.t3hh4xx0r.inputmethod.t3hh4xime.LatinKeyboardBaseView.OnKeyboardActionListener;
+import com.t3hh4xx0r.inputmethod.t3hh4xime.LatinKeyboardBaseView.UIHandler;
 
 import android.content.res.Resources;
 import android.inputmethodservice.Keyboard;

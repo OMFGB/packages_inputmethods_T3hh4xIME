@@ -14,9 +14,9 @@
  * the License.
  */
 
-package com.android.inputmethod.latin;
+package com.t3hh4xx0r.inputmethod.t3hh4xime;
 
-import com.android.inputmethod.latin.LatinIMEUtil.RingCharBuffer;
+import com.t3hh4xx0r.inputmethod.t3hh4xime.LatinIMEUtil.RingCharBuffer;
 import com.android.inputmethod.voice.FieldContext;
 import com.android.inputmethod.voice.SettingsUtil;
 import com.android.inputmethod.voice.VoiceInput;

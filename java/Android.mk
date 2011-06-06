@@ -5,7 +5,7 @@ LOCAL_MODULE_TAGS := optional
 
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
 
-LOCAL_PACKAGE_NAME := LatinIME
+LOCAL_PACKAGE_NAME := T3hh4xIME
 
 LOCAL_CERTIFICATE := shared
 

@@ -14,10 +14,10 @@
  * the License.
  */
 
-package com.android.inputmethod.latin;
+package com.t3hh4xx0r.inputmethod.t3hh4xime;
 
 import android.test.AndroidTestCase;
-import com.android.inputmethod.latin.tests.R;
+import com.t3hh4xx0r.inputmethod.t3hh4xime.tests.R;
 import java.util.Locale;
 
 public class UserBigramTests extends AndroidTestCase {

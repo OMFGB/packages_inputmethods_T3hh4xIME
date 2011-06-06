@@ -10,8 +10,8 @@ LOCAL_JAVA_LIBRARIES := android.test.runner
 # Include all test java files.
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
 
-LOCAL_PACKAGE_NAME := LatinIMETests
+LOCAL_PACKAGE_NAME := T3hh4xIMETests
 
-LOCAL_INSTRUMENTATION_FOR := LatinIME
+LOCAL_INSTRUMENTATION_FOR := T3hh4xIME
 
 include $(BUILD_PACKAGE)
