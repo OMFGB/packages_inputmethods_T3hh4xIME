@@ -17,9 +17,9 @@
 package com.t3hh4xx0r.inputmethod.t3hh4xime;
 
 import com.t3hh4xx0r.inputmethod.t3hh4xime.LatinIMEUtil.RingCharBuffer;
-import com.android.inputmethod.voice.FieldContext;
-import com.android.inputmethod.voice.SettingsUtil;
-import com.android.inputmethod.voice.VoiceInput;
+import com.t3hh4xx0r.inputmethod.t3hh4xvoice.FieldContext;
+import com.t3hh4xx0r.inputmethod.t3hh4xvoice.SettingsUtil;
+import com.t3hh4xx0r.inputmethod.t3hh4xvoice.VoiceInput;
 
 import org.xmlpull.v1.XmlPullParserException;
 

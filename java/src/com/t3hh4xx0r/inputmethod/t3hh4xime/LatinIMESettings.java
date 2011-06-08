@@ -33,8 +33,8 @@ import android.speech.SpeechRecognizer;
 import android.text.AutoText;
 import android.util.Log;
 
-import com.android.inputmethod.voice.SettingsUtil;
-import com.android.inputmethod.voice.VoiceInputLogger;
+import com.t3hh4xx0r.inputmethod.t3hh4xvoice.SettingsUtil;
+import com.t3hh4xx0r.inputmethod.t3hh4xvoice.VoiceInputLogger;
 
 public class LatinIMESettings extends PreferenceActivity
         implements SharedPreferences.OnSharedPreferenceChangeListener,

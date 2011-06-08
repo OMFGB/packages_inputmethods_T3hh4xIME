@@ -16,7 +16,7 @@
 
 package com.t3hh4xx0r.inputmethod.t3hh4xime;
 
-import com.android.inputmethod.voice.SettingsUtil;
+import com.t3hh4xx0r.inputmethod.t3hh4xvoice.SettingsUtil;
 
 import android.content.ContentResolver;
 import android.content.Context;

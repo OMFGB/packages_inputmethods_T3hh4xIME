@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.android.inputmethod.voice;
+package com.t3hh4xx0r.inputmethod.t3hh4xvoice;
 
 import android.os.Bundle;
 import android.util.Log;
